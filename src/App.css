@@ -1,0 +1,34 @@
+.App {
+  color: #123;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nav {
+  padding: 0.5rem;
+  list-style-type: none;
+  border: 1px solid #123;
+  display: flex;
+  flex-wrap: wrap;
+  background: #123;
+}
+
+.main-nav a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+  background: #fff;
+  color: #123;
+}
+
+.main-nav a:visited {
+  color: #fff;
+}
